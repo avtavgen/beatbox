@@ -4,6 +4,24 @@ public class Sound {
 
     private String mAssetPath;
     private String mName;
+    private Integer mSoundId;
+    private Integer mSoundRate;
+
+    public Integer getSoundRate() {
+        return mSoundRate;
+    }
+
+    public void setSoundRate(Integer soundRate) {
+        mSoundRate = soundRate;
+    }
+
+    public Integer getSoundId() {
+        return mSoundId;
+    }
+
+    public void setSoundId(Integer soundId) {
+        mSoundId = soundId;
+    }
 
     public Sound(String assetPath) {
         mAssetPath = assetPath;
